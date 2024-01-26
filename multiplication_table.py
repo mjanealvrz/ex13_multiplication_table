@@ -3,10 +3,13 @@
 # Pseudocode
 
 # Create a for loop for multiplicand 
-for number in range (1, 11):
+for multiplicand in range (1, 11):
 # Print "Multiplication Table for " with space
-    print("Multiplcation Table for ", number) 
+    print("Multiplcation Table for  ",  multiplicand) 
     
-# Create a for loop for multiplier 
 # Start a nested loop for each number from 1 to 10 as the multiplier
- # PRINT multiplicand, "*", multiplier, "=", result
+    for multiplier in range(1, 11):
+        # PRINT multiplicand, "*", multiplier, "=", result
+        print(multiplicand * multiplier, end = " ")
+    print("\t\t")
+
